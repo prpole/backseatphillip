@@ -28,6 +28,7 @@ body {
     margin-top: .7em;
     line-height: 1em;
     list-style-type: none;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .sidebar li a {
