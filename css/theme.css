@@ -89,8 +89,17 @@ body {
 
 .prev-img {
     display: block;
-    max-width:515px;
-    width: auto;
+    width: 90%;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.post-img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
