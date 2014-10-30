@@ -10,7 +10,10 @@ layout: default
           <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
         {% endif %}
         <div class="content">
-            {{ post.image }}
+            {% if post.image %}
+              <img src="{{ site.url }}/images/{{ post.image }}">
+            {% endif %}
+
             {{ post.content }}
         </div>
     </div>
