@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Professional, comma, consumate"
-date: 2012-08-01 16:25:06 -0500
+title: "Jekyll Clean Theme"
+date: 2014-08-22 16:25:06 -0700
 comments: false
 ---
 
