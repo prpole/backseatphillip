@@ -103,3 +103,8 @@ body {
     margin-left: auto;
 }
 
+.head-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
