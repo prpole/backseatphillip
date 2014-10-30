@@ -27,6 +27,7 @@ body {
 .sidebar li {
     margin-top: .7em;
     line-height: 1em;
+    list-style-type: none;
 }
 
 .sidebar a:hover {
@@ -52,7 +53,7 @@ body {
 
 .avatar {
     display: block;
-    max-width:225px;
+    max-width:222px;
     max-height:200px;
     width: auto;
     height: auto;
