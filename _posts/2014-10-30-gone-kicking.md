@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "gone punting"
+title: "gone kicking"
 date: 2014-10-30 -0500
-image: gone-kicking.jpg
+image: gone-kicking.tiff
 comments: true
 ---
 
