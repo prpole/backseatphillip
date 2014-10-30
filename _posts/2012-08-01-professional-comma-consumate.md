@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Jekyll Clean Theme"
-date: 2014-08-22 16:25:06 -0700
-comments: false
+title: "Professional, comma, consumate"
+date: 2012-08-22 16:25:06 -0500
+comments: true
 ---
 
 ![Consumate Pro]({{ site.baseurl}}/images/professional-consumate.jpg)
