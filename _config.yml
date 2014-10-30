@@ -14,7 +14,7 @@ baseurl: /backseatphillip
 
 # This can be '' to hide the Github nav button
 github: 'prpole/backseatphillip'
-avatar: profile.jpg
+avatar: profile.png
 
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
