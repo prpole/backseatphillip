@@ -50,7 +50,7 @@ body {
     color: #ee4444;
 }
 
-.avatar img {
+.avatar {
     display: block;
     max-width:150px;
     max-height:150px;
