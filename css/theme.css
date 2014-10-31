@@ -1,5 +1,5 @@
 body {
-    padding-top: 55px;
+    padding-top: 50px;
     padding-bottom: 60px;
 }
 
@@ -101,10 +101,15 @@ body {
     margin-left: auto;
 }
 
-.head-img {
+.head-img-div {
     width: 100%;
     height: auto;
     padding-bottom: 55px;
+}
+
+.head-img {
+    width: 100%;
+    height: auto;
 }
 
 .sidebar {
