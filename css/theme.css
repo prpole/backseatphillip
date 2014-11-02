@@ -65,8 +65,9 @@ body {
 .avatar {
     width: 100%;
     height: auto;
-    padding:2px;
-    border:5px solid #1C1C1C;
+    padding:5px;
+    border:10px solid #1C1C1C;
+    margin-bottom: 20px;
 }
 
 .desc {
