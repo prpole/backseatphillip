@@ -63,8 +63,7 @@ body {
 }
 
 .avatar {
-    display: block;
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
@@ -117,5 +116,11 @@ body {
 
 .sidebar {
     margin-left: auto;
-    martin-right: auto;
+    margin-right: auto;
+}
+
+.prof-box {
+    border-width: 5px;
+    border-color: #1C1C1C;
+    border-style: 5px;
 }
