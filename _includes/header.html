@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--<title>{{ site.name }}</title>-->
+    {% if page.title %}
+      <title>{{ page.title }}</title>
+    {% else %}
+      <title>BACKSEAT PHILLIP</title>
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="{{ site.baseurl }}/images/{{ page.image }}" />
     <meta property="og:title" content="{{ page.title }}" />
