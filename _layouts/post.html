@@ -14,7 +14,9 @@
             {% endif %}
             <div class="post-content">
             <img src="{{ site.url}}/images/{{ page.image }}" class="post-image">
+            <div class="post-text">
             {{ content }}
+            </div>
             </div>
             {% if page.comments %}
             <div id="disqus_thread">
