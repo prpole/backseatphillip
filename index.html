@@ -13,8 +13,9 @@ layout: default
             {% if post.image %}
               <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.image }}" class="prev-img"></a>
             {% endif %}
-
-            {{ post.content }}
+            <div class="post-text">
+              {{ post.content }}
+            </div>
         </div>
     </div>
 </div>
