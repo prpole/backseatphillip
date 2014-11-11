@@ -136,3 +136,8 @@ body {
     font-size: 1.25em;
     text-align: justify;
 }
+
+.sharing {
+	height: 2em;
+	width: auto;
+}
