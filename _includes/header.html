@@ -8,14 +8,15 @@
     {% else %}
       <title>BACKSEAT PHILLIP</title>
     {% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta property="og:image" content="{{ site.baseurl }}/images/{{ paginator.posts[0].image }}" />
     <meta property="og:title" content="{{ paginator.posts[0].title }}" />
-    <meta name="twitter:card" content="photo">
-    <meta name="twitter:site" content="@polefrone">
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@polefrone"/>
     <meta name="twitter:title" content="{{ paginator.posts[0].title }}" />
-    <meta name="twitter:creator" content="@polefrone">
-    <meta name="twitter:image" content="{{ site.baseurl }}/images/{{ paginator.posts[0].image }}">
+    <meta name="twitter:creator" content="@polefrone"/>
+    <meta name="twitter:description" content="k/">
+    <meta name="twitter:image:src" content="{{ site.url }}/images/{{ paginator.posts[0].image }}"/>
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
