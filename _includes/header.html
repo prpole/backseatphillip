@@ -15,7 +15,7 @@
     <meta name="twitter:site" content="@polefrone"/>
     <meta name="twitter:title" content="{{ paginator.posts[0].title }}" />
     <meta name="twitter:creator" content="@polefrone"/>
-    <meta name="twitter:description" content="k/">
+    <meta name="twitter:description" content="{{ paginator.posts[0].content | strip_html | truncate: 80 | strip_newlines | escape_once }}"/>
     <meta name="twitter:image:src" content="{{ site.url }}/images/{{ paginator.posts[0].image }}"/>
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
