@@ -8,7 +8,8 @@
         <div class="col-md-9">
           <div class="article">
             <div class="well">
-                <h1><a href="{{ site.baseurl}}{{ page.url }}" class="post-title">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
+		<div class="custom-top">  
+		  <h1><a href="{{ site.baseurl}}{{ page.url }}" class="post-title">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
       <div class="sharing-parent">    
 	  <div class="sharing">
 	    {% if site.comments == true and page.comments == true and site.disqus != '' %}
@@ -22,7 +23,8 @@
 	  <div class="sharing">
 	    <div class="fb-share-button" data-href="{{ site.url }}{{ post.url }}" data-width="100" data-layout="icon_link"></div>
 	  </div>
-      </div>
+  </div>
+  </div>
 	    <div class="post-content">
             <img src="{{ site.url}}/images/{{ page.image }}" class="post-image">
             <div class="post-text">
