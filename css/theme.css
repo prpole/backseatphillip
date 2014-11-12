@@ -155,6 +155,5 @@ body {
 .custom-top {
 	display: block;
 	width: 85%;
-	clear: both;
-	float: center;
+	margin: 0 auto;
 }
