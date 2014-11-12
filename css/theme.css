@@ -145,8 +145,9 @@ body {
 
 .sharing-parent {
 	height: 2em;
+	width: 90%;
 	clear: both;
-	margin-top: 3px;
-	margin-bottom: 3px:
+	margin-top: 5px;
+	margin-bottom: 10px:
 }
 
