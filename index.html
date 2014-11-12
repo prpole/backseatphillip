@@ -6,7 +6,8 @@ layout: default
 <div class="article">	
   <div class="well">
     <div class="custom-top">
-        <h1><a href="{{ site.baseurl}}{{ post.url }}" class="post-title">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
+	    <div class="title-box"><h1><a href="{{ site.baseurl}}{{ post.url }}" class="post-title">{{ post.title }}</a></h1></div>
+	    <div class="date-box"><p>{{ post.date | date: "%b %-d, %Y" }}</p></div>
     <div class="sharing-parent">
 	<div class="sharing">
 {% if site.comments == true and post.comments == true and site.disqus != '' %}

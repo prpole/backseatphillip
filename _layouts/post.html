@@ -9,7 +9,8 @@
           <div class="article">
             <div class="well">
 		<div class="custom-top">  
-		  <h1><a href="{{ site.baseurl}}{{ page.url }}" class="post-title">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
+			<div class="title-box"><h1><a href="{{ site.baseurl}}{{ post.url }}" class="post-title">{{ page.title }}</a></h1></div>
+	                <div class="date-box"><p>{{ page.date | date: "%b %-d, %Y" }}</p></div>			
       <div class="sharing-parent">    
 	  <div class="sharing">
 	    {% if site.comments == true and page.comments == true and site.disqus != '' %}
