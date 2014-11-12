@@ -1,3 +1,14 @@
+@font-face {
+	font-family: pixelmix;
+	src: url(_fonts/pixelmix.ttf);
+}
+
+@font-face {
+	font-family: pixelmix;
+	font-weight: bold;
+	src: url(_fonts/pixelmix_bold.ttf);
+}
+
 body {
     padding-top: 50px;
     padding-bottom: 60px;
@@ -77,7 +88,7 @@ body {
 }
 
 .post-title {
-    font-family: "Courier New", Courier, monospace;
+    font-family: pixelmix, monospace;
     font-weight: bold;
     color: #1C1C1C;
 }
