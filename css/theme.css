@@ -152,3 +152,9 @@ body {
 	border-bottom: solid 2px #ee4444;
 }
 
+.custom-top {
+	display: block;
+	width: 85%;
+	clear: both;
+	float: center;
+}
