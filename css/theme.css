@@ -139,5 +139,10 @@ body {
 
 .sharing {
 	height: 2em;
-	width: auto;
+	width: 33%;
+	float: left;
 }
+
+.sharing-parent {
+	height: 2em;
+	clear: both;

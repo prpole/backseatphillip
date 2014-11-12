@@ -9,8 +9,9 @@
       <title>BACKSEAT PHILLIP</title>
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta property="og:image" content="{{ site.baseurl }}/images/{{ paginator.posts[0].image }}" />
+    <meta property="og:image" content="{{ site.url }}/images/{{ paginator.posts[0].image }}" />
     <meta property="og:title" content="{{ paginator.posts[0].title }}" />
+    <meta property="og:description" content="{{ paginator.posts[0].content | strip_html | truncate: 80 | strip_newlines | escape_once }}"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@polefrone"/>
     <meta name="twitter:title" content="{{ paginator.posts[0].title }}" />
@@ -24,6 +25,14 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		    if (d.getElementById(id)) return;
+		      js = d.createElement(s); js.id = id;
+		        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+			  fjs.parentNode.insertBefore(js, fjs);
+			  }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="container-fluid">
     <div class="row-fluid">
