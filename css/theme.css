@@ -145,15 +145,14 @@ body {
 
 .sharing-parent {
 	height: 2em;
-	width: 90%;
 	clear: both;
 	margin-top: 5px;
 	margin-bottom: 10px;
-	border-bottom: solid 2px #ee4444;
+	border-bottom: solid 2px #428bca;
 }
 
 .custom-top {
 	display: block;
-	width: 85%;
+	width: 90%;
 	margin: 0 auto;
 }
