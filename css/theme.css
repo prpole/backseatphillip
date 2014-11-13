@@ -1,13 +1,4 @@
-@font-face {
-	font-family: pixelmix;
-	src: url(_fonts/pixelmix.ttf);
-}
 
-@font-face {
-	font-family: pixelmix;
-	font-weight: bold;
-	src: url(_fonts/pixelmix_bold.ttf);
-}
 
 body {
     padding-top: 50px;
@@ -39,7 +30,7 @@ body {
     margin-top: .7em;
     line-height: 1em;
     list-style-type: none;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Inconsolata', monospace;
 }
 
 .sidebar li a {
@@ -61,9 +52,10 @@ body {
 }
 
 .well h1 {
-    font-family: 'Press Start 2P', Arial Black, sans-serif;
+    font-family: 'Inconsolata', Arial Black, sans-serif;
     color: #ee4444;
-    font-size: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .author {
@@ -83,12 +75,11 @@ body {
 }
 
 .desc {
-    font-family: "Courier New", Courier, monospace;
-    font-weight: bold;
+    font-family: "Inconsolata", monospace;
 }
 
 .post-title {
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'Inconsolata', monospace;
     font-weight: bold;
     color: #1C1C1C;
 }
@@ -139,12 +130,12 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .post-text p {
-    font-family: "Lucida Grande", Lucida Sans Typewriter, monospace;
-    font-size: 1.25em;
+    font-family: "Vollkorn", Lucida Sans Typewriter, monospace;
+    font-size: 1.2em;
     text-align: justify;
 }
 
@@ -154,16 +145,33 @@ body {
 	float: left;
 }
 
+.sharing-fb {
+	height: 2em;
+	width: 33%;
+	float: left;
+	text-align: right;
+}
+
+.sharing-tw {
+	height: 2em;
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
 .sharing-parent {
+	display: bock;
+	width: 90%;
+	margin: 0 auto;
 	height: 2em;
 	clear: both;
-	margin-top: 5px;
-	margin-bottom: 10px;
-	border-bottom: solid 2px #1C1C1C;
+	margin-top: 1em;
 }
 
 .custom-top {
 	display: block;
 	width: 90%;
 	margin: 0 auto;
+	margin-bottom: 10px;
+	border-bottom: solid 2px #1C1C1C;
 }

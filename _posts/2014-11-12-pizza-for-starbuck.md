@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "look who's signed in, it was Starbuck who ordered that pizza"
+title: "Starbuck, not I, ordered that pizza"
 date: 2014-11-12 15:12:00 -0500
 image: pizza-for-beano.png 
 comments: true
