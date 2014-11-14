@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "scenes from (near) a marriage"
+title: "scenes from (around) a marriage"
 date: 2014-11-13 15:12:00 -0500
 image: remembered-images.png 
 comments: true
