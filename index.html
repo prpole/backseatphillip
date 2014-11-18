@@ -7,7 +7,7 @@ layout: default
   <div class="well">
     <div class="custom-top">
 	    <div class="title-box"><h1><a href="{{ site.baseurl}}{{ post.url }}" class="post-title">{{ post.title }}</a></h1></div>
-	    <div class="date-box"><p>{{ post.date | date: "%b %-d, %Y" }}</p></div>
+	    <div class="date-box"><p>{{ post.date | date: "%b %-d, %Y" }}</p>{% if post.timestamp }}<a name="{{ post.timestamp }}"></a>{% endif %}</div>
    </div>
 
 	<div class="content">
@@ -29,7 +29,7 @@ layout: default
   	  </div>
         </div>
             <div class="post-text">
-              {{ post.content }}
+		{{ post.content }}
             </div>
         </div>
     </div>

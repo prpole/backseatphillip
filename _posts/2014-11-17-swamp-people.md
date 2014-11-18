@@ -2,6 +2,7 @@
 layout: post
 title: "words do occasionally fail"
 date: 2014-11-17 15:12:00 -0500
+timestamp: 181114002647
 image: swamp-people.png 
 comments: true
 ---
