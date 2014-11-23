@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thanksgiving is coming and i don't have any cat-friendly recipes"
+title: "cat lasagna"
 date: 2014-11-22 15:12:00 -0500
 timestamp: 231114130957 
 image: cat-lasagna.png 
