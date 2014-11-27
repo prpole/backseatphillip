@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "no levity for once"
+title: "sans levity"
 date: 2014-11-24 15:12:00 -0500
 timestamp: 261114200037 
 image: police-state.png 
