@@ -9,7 +9,7 @@
     <meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" content="{{ page.content | strip_html | truncate: 80 | strip_newlines | escape_once }}"/>
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
     <meta name="twitter:card" content="photo"/>
     <meta name="twitter:site" content="@polefrone"/>
     <meta name="twitter:title" content="{{ page.title }}" />
@@ -24,7 +24,7 @@
     <meta property="og:image" content="{{ site.url }}/images/{{ paginator.posts[0].image }}" />
     <meta property="og:title" content="{{ paginator.posts[0].title }}" />
     <meta property="og:description" content="{{ paginator.posts[0].content | strip_html | truncate: 80 | strip_newlines | escape_once }}"/>
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
     <meta name="twitter:card" content="photo"/>
     <meta name="twitter:site" content="@polefrone"/>
     <meta name="twitter:title" content="{{ paginator.posts[0].title }}" />
