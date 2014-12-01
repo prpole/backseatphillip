@@ -175,3 +175,29 @@ body {
 	margin-bottom: 10px;
 	border-bottom: solid 2px #1C1C1C;
 }
+
+.well-wrap-mini {
+    min-height:20px;
+    padding:19px;
+    margin-bottom:20px;
+    border:1px solid #e3e3e3;
+    border-radius:4px;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+    width: 40%;
+}
+
+.sb-share {
+    text-align: center;
+    float: center;
+    margin: 0 auto;
+}
+
+.sb-share-tw {
+	float: left;
+}
+
+.sb-share-fb {
+	float: right;
+}
+
