@@ -11,7 +11,7 @@
 	                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> <!-- data-text="{{ post.title }} {{ site.url }}{{ post.url }}{% if post.timestamp %}/#{{ post.timestamp }}{% endif %}"-->
 </div>
 <div class="sharing">
-	<div class="fb-share-button" data-href="{{ site.url }}{{ post.url }}" data-width="30" data-layout="icon_link"></div>
+	<div class="fb-share-button" data-href="{{ site.url }}/#{{ paginator.posts[0].timestamp }}" data-width="30" data-layout="icon_link"></div>
 </div>
 </div>
 		
