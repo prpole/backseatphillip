@@ -201,3 +201,13 @@ body {
 	float: right;
 }
 
+.seventy-thirty-l {
+	width: 70%;
+	float: left;
+}
+
+.seventy-thirty-r {
+	width: 30%;
+	float: left;
+}
+
