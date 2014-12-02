@@ -3,7 +3,7 @@ layout: post
 title: "map madness"
 date: 2014-12-01 15:12:00 -0500
 timestamp: 021214011031 
-image: pigeon-mapping.png 
+image: pigeon-network.png 
 comments: true
 ---
 
