@@ -96,7 +96,7 @@ body {
     margin-left: auto;
     max-height: 4in;
     overflow: hidden;
-    width: 90%;
+    max-width: 90%;
 }
 
 .prev-img {
