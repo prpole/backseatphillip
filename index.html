@@ -8,29 +8,28 @@ layout: default
     <div class="custom-top">
 	    <div class="title-box"><h1><a href="{{ site.baseurl}}{{ post.url }}" class="post-title">{{ post.title }}</a></h1></div>
 	    <div class="date-box"><p>{{ post.date | date: "%b %-d, %Y" }}</p>{% if post.timestamp %}<a name="{{ post.timestamp }}"></a>{% endif %}</div>
-   </div>
-
-	<div class="content">
-            {% if post.image %}
-              <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.image }}" class="prev-img"></a>
-            {% endif %}
-     <!--<div class="sharing-parent">
-	<div class="sharing">
-{% if site.comments == true and post.comments == true and site.disqus != '' %}
+    </div>
+       <div class="content">
+        {% if post.image %}
+          <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.image }}" class="prev-img"></a>
+        {% endif %}
+ <!--<div class="sharing-parent">
+       <div class="sharing">
+        {% if site.comments == true and post.comments == true and site.disqus != '' %}
           <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
-	  {% endif %}
-          </div>
-	<div class="sharing-tw">
-		<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ post.url }}" data-via="polefrone" data-dnt="true">Tweet</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> <!-- data-text="{{ post.title }} {{ site.url }}{{ post.url }}{% if post.timestamp %}/#{{ post.timestamp }}{% endif %}"--!> 
-	  </div>
-	  <div class ="sharing-fb">
-	  <div class="fb-share-button" data-href="{{ site.url }}{{ post.url }}" data-width="30" data-layout="icon_link"></div>
-  	  </div>
-        </div>-->
-            <div class="post-text">
-		{{ post.content }}
-            </div>
+         {% endif %}
+        </div>
+       <div class="sharing-tw">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ post.url }}" data-via="polefrone" data-dnt="true">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+       </div>
+       <div class ="sharing-fb">
+       <div class="fb-share-button" data-href="{{ site.url }}{{ post.url }}" data-width="30" data-layout="icon_link"></div>
+       </div>
+    </div>-->
+        <div class="post-text">
+          {{ post.content }}
+        </div>
         </div>
     </div>
 </div>
