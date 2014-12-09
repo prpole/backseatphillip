@@ -11,7 +11,9 @@ layout: default
     </div>
        <div class="content">
         {% if post.image %}
+          <div class="prev-img-container">
           <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.image }}" class="prev-img"></a>
+          </div>
         {% endif %}
  <!--<div class="sharing-parent">
        <div class="sharing">
