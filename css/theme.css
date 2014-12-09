@@ -96,6 +96,8 @@ body {
     height: auto;
     margin-right: auto;
     margin-left: auto;
+    max-height: 4in;
+    overflow: hidden;
 }
 
 .post-image {
