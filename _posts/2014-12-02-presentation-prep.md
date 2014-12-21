@@ -7,4 +7,4 @@ image: prepping-the-pres.png
 comments: true
 ---
 
-Up till three preparing this thing; in the morning, it's canceled. Oh, well! I'm much further along than I would have been, which is the point... Here are my maps that constitute a spatial representation of this novel. See previous posts for exactly how long I've been occupied with this thing.
+Still mapping imaginary things, here. These are my maps that constitute a spatial representation of this novel. See previous posts for exactly how long I've been occupied with this thing.

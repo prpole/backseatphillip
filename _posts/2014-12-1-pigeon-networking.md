@@ -7,4 +7,4 @@ image: pigeon-network.png
 comments: true
 ---
 
-Among the dumbest reasons I've geared myself to stay up into the morning. Hands down. I don't even know what's going to make it into the presentation, let alone the paper. But you know what? Sometimes you have to know where the pigeons go. Unfortunately, the less literally you mean that, the better.
+I sure hope this doesn't end up being a waste of time, because it feels a little crazy. I don't even know what's going to make it into the presentation, let alone the paper. But you know what? Sometimes you have to know where the pigeons go. Unfortunately, the less literally you mean that, the better.
